@@ -1,0 +1,243 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a#searchLink {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+div#tableBox {
+    width: 90%;
+    margin: 0 auto 40px auto;
+}
+
+table#resultTable {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: 1px solid midnightblue;
+}
+
+table#resultTable th {
+    border-bottom: 1px solid midnightblue;
+    color: midnightblue;
+    height: 40px;
+    padding: 0 5px;
+}
+
+table#resultTable td {
+    border: 1px dotted #d4cdc4;
+    color: midnightblue;
+    padding: 7px;
+    text-align: center;
+}
+
+table#resultTable td.specialRow {
+    background: #fef1dd;
+    font-weight: bold;
+}
+
+div#searchParams {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    color: midnightblue;
+}
+
+div#multipleSelect {
+    float: left;
+    margin: 1%;
+    width: 48%;
+    min-width: 120px;
+}
+
+div#multipleSelect label {
+    display: block;
+    color: midnightblue;
+    margin-bottom: 10px;
+}
+
+div#multipleSelect select {
+    display: block;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: lightslategray;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+a#logoutLink {
+    display: block;
+    text-align: center;
+    color: crimson;
+    margin-top: 15px;
+}
+
+div.emptyResultMsg {
+    color: crimson;
+    text-align: center;
+}
+
+a#searchLink:hover, a#logoutLink:hover {
+    color: crimson;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a#logoutLink:hover {
+    color: lightslategray;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+div.form {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    color: midnightblue;
+}
+
+input {
+    display: block;
+}
+
+input#submit {
+    height: 50px;
+    width: 100%;
+    max-width: 300px;
+    margin: 15px auto 0 auto;
+    font-family: Arial, sans-serif;
+    color: midnightblue;
+}
+
+input#file {
+    color: midnightblue;
+    margin-top: 15px;
+}
+
+select.simpleSelect {
+    width: 100%;
+    margin: 8px 0;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    color: midnightblue;
+    line-height: 50px;
+}
+
+div.form label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 5px 0;
+}
+
+h3, h1, h2 {
+    margin: 30px auto;
+    text-align: center;
+    color: midnightblue;
+}
+
+h3#header {
+    margin: 10px auto;
+}
+
+h2#header {
+    margin-top: -30px;
+}
+
+hr {
+    width: 80%;
+    margin: 30px auto;
+}
+
+thead tr {
+    background-color: #fef1dd;
+}
+
+div#selectItems {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
+div#selectItems.searchLink {
+    border-bottom: 1px dotted midnightblue;
+    border-top: 1px dotted midnightblue;
+    padding: 25px 0;
+    margin-top: 15px;
+}
+
+.errorLinks {
+    text-align: center;
+    margin-top: 5%;
+    font: 16px 'Calibri';
+    line-height: 25px;
+}
+
+.errorLinks a {
+    color: midnightblue;
+    text-decoration: none;
+    padding-top: 10px;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.errorLinks a:hover {
+    color: cornflowerblue;
+}
+
+.errorLinksHead {
+    text-align: center;
+    margin-top: 5%;
+    color: crimson;
+    font: 20px 'Calibri'
+}
+
+.navigationTop {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0 -20px 0;
+}
+
+.navigationTop a {
+    color: #aaa;
+}
+
+.navigationTop a:hover {
+    color: cornflowerblue;
+}
+
+.navigationTop span {
+    color: #ccc;
+}
+
+.formInputTextPriceChange {
+    color: lightslategrey;
+    padding: 6px;
+    width: 284px;
+    margin: 5px 0 10px 0;
+}
+
+.returnMessage {
+    text-align: center;
+    color: crimson;
+}
